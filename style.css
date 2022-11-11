@@ -1,0 +1,72 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.coordinate{
+    background-color: black;
+    padding: 0.3rem;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    position: relative;
+    left: 50%;
+    margin-left: -105px;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+img{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: rgba(255, 255, 255, 0.726);
+}
+.number{
+    width: 60px;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+.move{
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+.submit{
+    height: 1.8rem;
+    background-color: black;
+    color: white;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+p{
+    position: absolute;
+    left: 50%;
+    margin-left: -265px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 1rem;
+    width: 500px;
+}
+#canvas{
+    border: 1px solid black;
+    background-size: cover;
+    width: 550px;
+    border-radius: 10px;
+}
+@media (max-width:760px) {
+    #canvas{
+        width: 100%;
+    }
+    p{
+        width: 90%;
+        margin-left: 0px;
+        left: 1%;
+    }
+}

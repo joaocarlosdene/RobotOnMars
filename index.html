@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot On Mars</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/ROBOT.png">
+</head>
+<body>
+    <div style="text-align: center;">
+        <img src="images/pia22486_orig.png" alt="" srcset="">
+        <h1>ROBOT GAME </h1>
+        <form id="form">
+            <label>GRID</label>
+            <input class="number" type="number" placeholder="X" id="gridX" value="2" min="1" > X <input class="number" type="number" placeholder="Y"id="gridY"   value="2" min="1"><br>
+            <label>MOVE</label>
+            <input class="move" type="text" id="mov">
+            <input   class="submit" id="send" type="submit" value="WALK" >
+            
+        </form>
+        <canvas id="canvas" width="400" height="400" ></canvas>
+        <div class="coordinate">
+            <div>Coordinates:</div>
+            <span id="x">1 </span>
+            <span id="y">1</span>
+            <span id="coordinate">North</span>
+        </div>
+        <p>instructions: <br>
+            F: Move forward on it's facing direction <br>
+            R: Turn the robot right <br>
+            L: Turn the robot left<br>
+            EXAMPLE: FFRFLFLF</p>
+        </div>
+        <script type="text/javascript" src="script.js" ></script>
+</body>
+</html>
